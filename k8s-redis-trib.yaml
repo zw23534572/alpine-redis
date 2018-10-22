@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis-trib
+spec:
+  containers:
+  - name: redis-trib
+    image: inem0o/redis-trib
+# https://raw.githubusercontent.com/zw23534572/alpine-redis/master/k8s-redis-trib
