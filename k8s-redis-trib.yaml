@@ -6,4 +6,5 @@ spec:
   containers:
   - name: redis-trib
     image: inem0o/redis-trib
-# https://raw.githubusercontent.com/zw23534572/alpine-redis/master/k8s-redis-trib
+# https://raw.githubusercontent.com/zw23534572/alpine-redis/master/k8s-redis-trib.yaml
+# redis-trib create --replicas 1  10.46.101.243:6379 10.46.48.250:6379 10.46.69.24:6379 10.46.154.116:6379 10.46.233.2:6379 10.46.132.35:6379
