@@ -21,7 +21,8 @@ spec:
   type: NodePort
   ports:
     - port: 6379
-      nodePort: 30006
+      nodePort: 6379
   selector:
         name: alpine-redis
 # https://raw.githubusercontent.com/zw23534572/alpine-redis/master/k8s.yaml
+# docker run --name redis -p 6379:6379 -d registry.cn-shenzhen.aliyuncs.com/sjroom/alpine-redis
